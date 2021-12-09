@@ -40,3 +40,4 @@ def decode_word(a)
   split_word.each do |word| result += decode_char(word) end
   return result.upcase()
 end
+
