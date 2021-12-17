@@ -16,7 +16,7 @@ puts decode_char('.-')
 
 def decode_word(code)
   result = ''
-  split_word = code.split
+  split_word = code.splt
   split_word.each { |word| result += decode_char(word) }
   result.upcase
 end
